@@ -16,7 +16,8 @@
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.13.4",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "nth-check": "2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
