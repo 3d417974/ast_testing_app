@@ -36,7 +36,7 @@ export class PostController {
   @Post(':postId/comments')
   @UseGuards(JwtAuthGuard)
   async createComment(
-    @Body() createPostCommentDto: CreatePostCommentDto,
+    @Body() createPostCommentDto: { postId: number; content: string },
     @Req() request: any,
   ) {
     return this.prisma.postComment.create({
